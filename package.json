@@ -1,0 +1,22 @@
+{
+  "name": "vue-apexcharts-trendline",
+  "version": "1.0.0",
+  "description": "vue-apexcharts component for adding a trend line to your charts",
+  "main": "index.js",
+  "dependencies": {
+    "vue-apexcharts": "^1.5.2",
+    "deepmerge": "^4.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "apexcharts",
+    "trendline",
+    "charts",
+    "charting"
+  ],
+  "author": "Jarryd Lisher <jarryd.lisher@litson.co.za>",
+  "license": "MIT"
+}
