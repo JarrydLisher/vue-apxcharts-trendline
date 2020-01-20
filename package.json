@@ -18,5 +18,13 @@
     "charting"
   ],
   "author": "Jarryd Lisher <jarryd.lisher@litson.co.za>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JarrydLisher/vue-apxcharts-trendline"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JarrydLisher/vue-apxcharts-trendline/issues"
+  },
+  "homepage": "https://github.com/JarrydLisher/vue-apxcharts-trendline"
 }
