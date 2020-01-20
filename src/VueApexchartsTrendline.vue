@@ -9,6 +9,37 @@
 
     const merge = require('deepmerge');
 
+    const defaultTrendOptions = () => {
+        return {
+            text: 'Trend Line',
+            indices: undefined,
+            series: undefined,
+            show: true,
+            tooltips: false,
+            dataLabels: false,
+            combined: undefined,
+        };
+    };
+
+    const defaultRegression = () => {
+        return {
+            sums: {
+                x: 0,
+                y: 0,
+                xy: 0,
+                x2: 0,
+                y2: 0,
+                count: 0,
+            },
+            a: 0,
+            b: 0,
+        };
+    };
+
+    const defaultYMax = () => {
+        return 6;
+    };
+
     export default {
         name: "VueApexchartsTrendline",
         components: {
@@ -360,37 +391,6 @@
 
             this.loaded = true; // added to delay rendering for data to be processed properly.
         },
-    };
-
-    const defaultTrendOptions = () => {
-        return {
-            text: 'Trend Line',
-            indices: undefined,
-            series: undefined,
-            show: true,
-            tooltips: false,
-            dataLabels: false,
-            combined: undefined,
-        };
-    };
-
-    const defaultRegression = () => {
-        return {
-            sums: {
-                x: 0,
-                y: 0,
-                xy: 0,
-                x2: 0,
-                y2: 0,
-                count: 0,
-            },
-            a: 0,
-            b: 0,
-        };
-    };
-
-    const defaultYMax = () => {
-        return 6;
     };
 </script>
 

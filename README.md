@@ -119,6 +119,8 @@ This is a basic example show how to us the component in a single file vue compon
 
 ```
 
+![Screenshot](./img/screenshot.png)
+
 ## Notes 
 
 * When using stacked charts the component recalculates the "yaxis.max" value as the trend lines increase the value.
